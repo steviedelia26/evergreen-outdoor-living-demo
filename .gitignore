@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Vite production build
+dist/
+
+# Vercel local project settings
+.vercel/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local operating system files
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+.DS_Store
